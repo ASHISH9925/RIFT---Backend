@@ -1,0 +1,46 @@
+# Python-related files
+*.py[cod]
+*.pyo
+__pycache__/
+
+# Environment variables
+.env
+
+# Pipenv environment files
+Pipfile.lock
+
+# Virtual environment directory (if any)
+.venv/
+
+# Django-related files
+db.sqlite3
+*.sqlite3
+**/migrations/  # Ignore all migration files except the __init__.py
+!**/migrations/__init__.py
+
+# Static and media files
+staticfiles/
+media/
+
+# Logs
+*.log
+logs/
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test and coverage files
+.coverage
+*.cover
+htmlcov/
+.cache/
+
+# Node.js files (if using npm/yarn for frontend)
+node_modules/
